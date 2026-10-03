@@ -57,6 +57,8 @@ files and its course folder. The user decided those names must not be public: th
 was deleted on GitHub and re-created with a history that never contained them. A force push
 alone would have left the old commit reachable by its hash.
 
+**omarchy-customizations becomes private** (user's decision): the README no longer links to it.
+
 **Open.**
 - The orgmode.org ELPA archive no longer exists: each package refresh prints "Failed to download
   'org' archive" (it predates this session).

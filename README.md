@@ -46,9 +46,8 @@ opens its menu in graphical frames (a terminal cannot send `C-'` to `emacs -nw`)
 
 - [emacs-tui-default](https://github.com/stefanoconiglio/emacs-tui-default): terminal Emacs
   (`emacs -nw`) as Omarchy's default editor.
-- [omarchy-customizations](https://github.com/stefanoconiglio/omarchy-customizations): the rest of
-  the machine's customizations. Until 2026-10-03 this file was `home/.emacs.d/init.el` there,
-  and its earlier history is in that repository.
+- Until 2026-10-03 this file was `home/.emacs.d/init.el` in omarchy-customizations, the private
+  repository of the rest of the machine's customizations, which keeps its earlier history.
 
 ## License
 
