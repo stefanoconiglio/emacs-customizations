@@ -612,7 +612,7 @@ if ($img -ne $null) { $img.Save('%s'); exit 0 } else { exit 1 }\""
 ;; ===============================
 ;; ===============================
 ;; TEXSYNC: source and PDF side by side, kept in step both ways
-;; https://github.com/stefanoconiglio/texsync (~/repos/texsync)
+;; https://github.com/stefanoconiglio/emacs-texsync (~/repos/emacs-texsync)
 ;; Only in graphical Emacs (/usr/bin/emacs): C-c C-v and C-c C-c View show
 ;; the PDF in pdf-tools on the right.  Terminal Emacs (emacs -nw) keeps Zathura.
 ;; omarchy-follow: Emacs and the PDF in the colours of the Omarchy theme,
@@ -622,7 +622,7 @@ if ($img -ne $null) { $img.Save('%s'); exit 0 } else { exit 1 }\""
 ;; graphical frame, so `display-graphic-p' alone would skip it.
 ;; ===============================
 ;; ===============================
-(add-to-list 'load-path "~/repos/texsync")
+(add-to-list 'load-path "~/repos/emacs-texsync")
 (add-to-list 'load-path "~/repos/emacs-omarchy-theme")
 (when (require 'texsync nil t)
   (add-hook 'LaTeX-mode-hook

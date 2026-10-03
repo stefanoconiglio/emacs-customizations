@@ -19,7 +19,7 @@ restart it (`systemctl --user restart emacs`) once everything is saved.
   ampl-mode (github.com/ampl/ampl-mode) and claude-code-ide
   (github.com/manzaltu/claude-code-ide.el).
 - **Two checkouts**, loaded by the TEXSYNC block in graphical Emacs and in the daemon:
-  - [texsync](https://github.com/stefanoconiglio/texsync) at `~/repos/texsync`: LaTeX source and
+  - [texsync](https://github.com/stefanoconiglio/emacs-texsync) at `~/repos/emacs-texsync`: LaTeX source and
     PDF side by side, kept in step both ways;
   - [emacs-omarchy-theme](https://github.com/stefanoconiglio/emacs-omarchy-theme) at
     `~/repos/emacs-omarchy-theme`: Emacs and its PDFs follow the Omarchy theme.
