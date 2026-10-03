@@ -1,4 +1,5 @@
 ;; ./emacs.d/init.el --- Emacs configuration  -*- lexical-binding: nil -*-
+;; SPDX-License-Identifier: GPL-3.0-or-later
 
 (server-start)
 

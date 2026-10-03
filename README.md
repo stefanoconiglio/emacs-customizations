@@ -49,3 +49,7 @@ opens its menu in graphical frames (a terminal cannot send `C-'` to `emacs -nw`)
 - [omarchy-customizations](https://github.com/stefanoconiglio/omarchy-customizations): the rest of
   the machine's customizations. Until 2026-10-03 this file was `home/.emacs.d/init.el` there,
   and its earlier history is in that repository.
+
+## License
+
+GPL-3.0-or-later. See [LICENSE](LICENSE).

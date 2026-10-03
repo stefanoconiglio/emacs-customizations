@@ -44,8 +44,20 @@ block now loads the theme from `~/repos/emacs-omarchy-theme`. Checked: the whole
 batch with the daemon's PATH and `daemonp` forced (omarchy-follow on, from the new path;
 texsync found; claude-code-ide defined, backend ghostel, CLI found).
 
+**`~/.git` removed** (user: "do as you see fit"). Afterwards `project-current` in a
+`.tex` buffer outside any Git repository is nil, and a new Claude session started from it runs
+in that file's folder. Three sessions started earlier still run in `~`: if Claude Code
+writes `~/.git/info/exclude` again, remove it again.
+
+**Licence.** Decision (user): GPL-3.0-or-later for emacs-customizations, emacs-omarchy-theme
+and emacs-tui-default, as texsync.
+
+**Mistake.** The first version of the `~/.git` paragraph above named one of the user's lecture
+files and its course folder. The user decided those names must not be public: this repository
+was deleted on GitHub and re-created with a history that never contained them. A force push
+alone would have left the old commit reachable by its hash.
+
 **Open.**
-- No licence on the new repositories (texsync is GPL-3.0): the user's call.
 - The orgmode.org ELPA archive no longer exists: each package refresh prints "Failed to download
   'org' archive" (it predates this session).
 - Not checked: Claude Code's own shell commands with the daemon's short PATH (its shell is
